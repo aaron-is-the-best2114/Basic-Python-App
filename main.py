@@ -15,7 +15,7 @@ YELLOW = (255,255,0)
 myFont = pygame.font.SysFont("monospace", 35)
 #Build the GUI for pygame interface, also makes the window resizable
 monitor_size = [pygame.display.Info().current_w, pygame.display.Info().current_h]
-screen = pygame.display.set_mode((500, 500), pygame.RESIZABLE)
+screen = pygame.display.set_mode((800, 500), pygame.RESIZABLE)
 #sets False value to fullscreen
 fullscreen = False
 #Update the GUI to display the text or items wanted to be displayed
